@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main(){
+int nota;
+printf(“Nota ?”);
+scanf(“%i%”,&nota);
+if (nota==5){
+ printf(“Sacaste 5”);
+}
+else {
+ printf(“No sacas 5”);
+}
+}
