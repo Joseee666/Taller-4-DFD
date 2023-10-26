@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() {
+int i=0;//variable para el control del bucle
+int par=0; //variable con los números pares
+while (i<10){
+printf(“%i - “,par);
+par=par+2;
+i=i+1;
+}
+getc();
+return 0;
+}i 
