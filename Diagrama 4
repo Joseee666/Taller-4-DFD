@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main(){
+int edad;
+int altura;
+printf(“Edad ?”);
+scanf(“%i”,&edad);
+printf(“Altura ?”);
+scanf(“%i%”,&altura);
+if (edad>18 &&altura>170)
+ {
+ printf(“Cumple”);
+ }
+else {
+ printf(“No Cumple”);
+ }
+}
