@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main(){
+int a;
+int b;
+printf(“Introduce numero ”);
+scanf(“%i”,&a);
+printf(“Introduce numero ”);
+scanf(“%i”,&b);
+if (a==b)
+{
+ printf(“Son iguales”);
+}
+else {
+ if(a>b){
+ printf(“a mayor que b”);
+ }
+ else{
+ printf(“b mayor que a”);
+}
+}
